@@ -6,7 +6,7 @@ import random
 
 def start(stdscr):
     stdscr.clear()
-    stdscr.addstr("Welcome to the typing test!")
+    stdscr.addstr("Welcome to the typing test! 🙂")
     stdscr.addstr("\nPress any key to start")
     stdscr.refresh()
     stdscr.getkey()
@@ -70,7 +70,7 @@ def main(stdscr):
     start(stdscr)
     while True:
         wpm_test(stdscr)
-        stdscr.addstr(2, 0, "You completed the text! Press any key to continue...")
+        stdscr.addstr(2, 0, "You completed the text! Press any key to continue ✌️...")
         key = stdscr.getkey()
 
         if ord(key) == 27:
